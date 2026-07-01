@@ -3,8 +3,7 @@ import React from "react";
 import { toast } from "react-toastify";
 
 const ReferralCard = ({ referralCode }) => {
-  const referralLink = `https://yourapp.com/ref/${referralCode}`;
-
+  const referralLink = `https://regerral-system.vercel.app/ref/${referralCode}`;
   const copyLink = () => {
     navigator.clipboard.writeText(referralLink);
     toast.success("Referral link copied!");
