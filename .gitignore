@@ -2,17 +2,17 @@
 client/node_modules/
 server/node_modules/
 
-# Environment variables
+# Environment
 server/.env
+
+# Build
+client/dist/
+server/dist/
 
 # Logs
 *.log
 
-# Build folders
-client/dist/
-server/dist/
-
-# OS files
+# OS
 .DS_Store
 Thumbs.db
 
